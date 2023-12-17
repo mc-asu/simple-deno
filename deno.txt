@@ -1,0 +1,16 @@
+Go to your Top Menu
+View > Command Palette  or ctrl + shift + p 
+
+Type Deno: Init
+
+Then click Deno: Initialize Workspace Configuration
+
+Answer the Pop-up questions:
+Enable Deno Linting?
+--> click Yes
+Enable Deno unstable APIs?
+--> click Yes
+
+Permissions / Flag:
+writeFile:  Deno run --allow-write file.ts
+serve Port: Deno run --allow-net app.ts
